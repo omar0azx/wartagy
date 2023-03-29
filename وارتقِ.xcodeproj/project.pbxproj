@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2504D8C329D3CBC100B31819 /* تعليمات.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2504D8C229D3CBC100B31819 /* تعليمات.wav */; };
+		2504D8C529D3CC7D00B31819 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504D8C429D3CC7D00B31819 /* MainVC.swift */; };
+		2504D8C729D3CCCC00B31819 /* ترحيب.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2504D8C629D3CCCC00B31819 /* ترحيب.wav */; };
 		2544230E29C54B8800A7AE19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544230D29C54B8800A7AE19 /* AppDelegate.swift */; };
 		2544231029C54B8800A7AE19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544230F29C54B8800A7AE19 /* SceneDelegate.swift */; };
-		2544231229C54B8800A7AE19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544231129C54B8800A7AE19 /* ViewController.swift */; };
+		2544231229C54B8800A7AE19 /* MoshafVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2544231129C54B8800A7AE19 /* MoshafVC.swift */; };
 		2544231529C54B8800A7AE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544231329C54B8800A7AE19 /* Main.storyboard */; };
 		2544231729C54B8A00A7AE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2544231629C54B8A00A7AE19 /* Assets.xcassets */; };
 		2544231A29C54B8A00A7AE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544231829C54B8A00A7AE19 /* LaunchScreen.storyboard */; };
@@ -22,13 +25,20 @@
 		2544233729C7A72500A7AE19 /* تفسير2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2544233329C7A72500A7AE19 /* تفسير2.wav */; };
 		2544233829C7A72500A7AE19 /* تفسير3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2544233429C7A72500A7AE19 /* تفسير3.wav */; };
 		2544233929C7A72500A7AE19 /* تفسير1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2544233529C7A72500A7AE19 /* تفسير1.wav */; };
+		25C2B4B129D3BA8E00CF50C0 /* MainExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C2B4B029D3BA8E00CF50C0 /* MainExtentions.swift */; };
+		25F5251729D3EA01005AD29A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 25F5251629D3EA01005AD29A /* Lottie */; };
+		25F5251B29D3EAD1005AD29A /* swipeLeft.json in Resources */ = {isa = PBXBuildFile; fileRef = 25F5251929D3EAD1005AD29A /* swipeLeft.json */; };
+		25F5251C29D3EAD1005AD29A /* swipeRight.json in Resources */ = {isa = PBXBuildFile; fileRef = 25F5251A29D3EAD1005AD29A /* swipeRight.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2504D8C229D3CBC100B31819 /* تعليمات.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "تعليمات.wav"; sourceTree = "<group>"; };
+		2504D8C429D3CC7D00B31819 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		2504D8C629D3CCCC00B31819 /* ترحيب.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ترحيب.wav"; sourceTree = "<group>"; };
 		2544230A29C54B8800A7AE19 /* وارتقِ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "وارتقِ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2544230D29C54B8800A7AE19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2544230F29C54B8800A7AE19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2544231129C54B8800A7AE19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2544231129C54B8800A7AE19 /* MoshafVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshafVC.swift; sourceTree = "<group>"; };
 		2544231429C54B8800A7AE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2544231629C54B8A00A7AE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2544231929C54B8A00A7AE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +52,9 @@
 		2544233329C7A72500A7AE19 /* تفسير2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "تفسير2.wav"; sourceTree = "<group>"; };
 		2544233429C7A72500A7AE19 /* تفسير3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "تفسير3.wav"; sourceTree = "<group>"; };
 		2544233529C7A72500A7AE19 /* تفسير1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "تفسير1.wav"; sourceTree = "<group>"; };
+		25C2B4B029D3BA8E00CF50C0 /* MainExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExtentions.swift; sourceTree = "<group>"; };
+		25F5251929D3EAD1005AD29A /* swipeLeft.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swipeLeft.json; sourceTree = "<group>"; };
+		25F5251A29D3EAD1005AD29A /* swipeRight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swipeRight.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5251729D3EA01005AD29A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,11 +90,14 @@
 			children = (
 				2544230D29C54B8800A7AE19 /* AppDelegate.swift */,
 				2544230F29C54B8800A7AE19 /* SceneDelegate.swift */,
-				2544231129C54B8800A7AE19 /* ViewController.swift */,
+				2504D8C429D3CC7D00B31819 /* MainVC.swift */,
+				2544231129C54B8800A7AE19 /* MoshafVC.swift */,
 				2544231329C54B8800A7AE19 /* Main.storyboard */,
+				25C2B4B029D3BA8E00CF50C0 /* MainExtentions.swift */,
 				2544231629C54B8A00A7AE19 /* Assets.xcassets */,
 				2544231829C54B8A00A7AE19 /* LaunchScreen.storyboard */,
 				2544231B29C54B8A00A7AE19 /* Info.plist */,
+				25F5251829D3EA81005AD29A /* Lottie */,
 				2544233129C7A70B00A7AE19 /* sounds */,
 			);
 			path = "وارتقِ";
@@ -98,8 +115,19 @@
 				2544233329C7A72500A7AE19 /* تفسير2.wav */,
 				2544233429C7A72500A7AE19 /* تفسير3.wav */,
 				2544233229C7A72500A7AE19 /* تفسير4.wav */,
+				2504D8C229D3CBC100B31819 /* تعليمات.wav */,
+				2504D8C629D3CCCC00B31819 /* ترحيب.wav */,
 			);
 			path = sounds;
+			sourceTree = "<group>";
+		};
+		25F5251829D3EA81005AD29A /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				25F5251929D3EAD1005AD29A /* swipeLeft.json */,
+				25F5251A29D3EAD1005AD29A /* swipeRight.json */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +146,9 @@
 			dependencies = (
 			);
 			name = "وارتقِ";
+			packageProductDependencies = (
+				25F5251629D3EA01005AD29A /* Lottie */,
+			);
 			productName = "وارتقِ";
 			productReference = 2544230A29C54B8800A7AE19 /* وارتقِ.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 2544230129C54B8800A7AE19;
+			packageReferences = (
+				25F5251529D3EA01005AD29A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2544230B29C54B8800A7AE19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,7 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F5251B29D3EAD1005AD29A /* swipeLeft.json in Resources */,
 				2544233629C7A72500A7AE19 /* تفسير4.wav in Resources */,
+				2504D8C329D3CBC100B31819 /* تعليمات.wav in Resources */,
 				2544232B29C7775800A7AE19 /* البسملة.wav in Resources */,
 				2544232C29C7775800A7AE19 /* الثانية.wav in Resources */,
 				2544232A29C7775800A7AE19 /* الرابعة.wav in Resources */,
@@ -170,6 +206,8 @@
 				2544232D29C7775800A7AE19 /* الاولى.wav in Resources */,
 				2544231729C54B8A00A7AE19 /* Assets.xcassets in Resources */,
 				2544233729C7A72500A7AE19 /* تفسير2.wav in Resources */,
+				2504D8C729D3CCCC00B31819 /* ترحيب.wav in Resources */,
+				25F5251C29D3EAD1005AD29A /* swipeRight.json in Resources */,
 				2544232E29C7775800A7AE19 /* الثالثة.wav in Resources */,
 				2544231529C54B8800A7AE19 /* Main.storyboard in Resources */,
 			);
@@ -182,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2544231229C54B8800A7AE19 /* ViewController.swift in Sources */,
+				2544231229C54B8800A7AE19 /* MoshafVC.swift in Sources */,
+				2504D8C529D3CC7D00B31819 /* MainVC.swift in Sources */,
 				2544230E29C54B8800A7AE19 /* AppDelegate.swift in Sources */,
+				25C2B4B129D3BA8E00CF50C0 /* MainExtentions.swift in Sources */,
 				2544231029C54B8800A7AE19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25F5251529D3EA01005AD29A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25F5251629D3EA01005AD29A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25F5251529D3EA01005AD29A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2544230229C54B8800A7AE19 /* Project object */;
 }
