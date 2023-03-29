@@ -82,8 +82,8 @@ class MoshafVC: UIViewController {
                node.installTap(onBus: 0, bufferSize: 1024, format: recordingFormat) { buffer, _ in
                    self.request.append(buffer)
                }
-
-               audioEngine.prepare()
+        
+            audioEngine.prepare()
                do {
                    try audioEngine.start()
                }
@@ -171,6 +171,13 @@ class MoshafVC: UIViewController {
         selectedSoundFileName = quranArray[number]
         playSound()
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) { [self] in
+            let audioSession = AVAudioSession.sharedInstance()
+            do {
+                try audioSession.setCategory(.playAndRecord, options: .defaultToSpeaker)
+                try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
+            } catch let error{
+                print("ERROR:", error)
+            }
                 startSpeechRecognization()
             UIView.animate(withDuration: 0.7, delay: 0, options: .repeat) {
                 self.btn_start.backgroundColor = .systemBrown
